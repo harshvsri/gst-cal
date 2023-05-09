@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GST Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>GST Calculator</h1>
+    </header>
+    <main>
+      <form>
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" required />
+        <br />
+        <label for="gst">GST:</label>
+        <select id="gst" name="gst">
+          <option value="5">5%</option>
+          <option value="12">12%</option>
+          <option value="18">18%</option>
+          <option value="28">28%</option>
+        </select>
+        <br />
+        <button type="submit">Calculate GST</button>
+      </form>
+      <div id="result">
+        <p>GST Payable: <span id="gstAmount"></span></p>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 GST Calculator</p>
+      <p>Made by BITS SMASHERS</p>
+    </footer>
+  </body>
+</html>
