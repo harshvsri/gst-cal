@@ -47,6 +47,7 @@ select {
 }
 
 button[type="submit"] {
+  font-family: "Roboto Mono", monospace;
   padding: 10px;
   background-color: #0099ff;
   color: #fff;
@@ -90,4 +91,46 @@ footer {
 
 footer p {
   margin: 4px;
+}
+
+main {
+  padding: 20px;
+}
+
+.gstRates {
+  border-radius: 4px;
+  max-width: 200px;
+  margin: 0 auto;
+  background-color: #0099ff;
+  /* margin: 20px; */
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+a {
+  padding: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #0099ff;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
